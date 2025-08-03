@@ -1,0 +1,50 @@
+name: 📱 Nova Notificação
+description: Criar uma nova notificação para os aplicativos
+title: "[NOTIF] "
+labels: ["🔔 active"]
+body:
+  - type: dropdown
+    id: app_target
+    attributes:
+      label: Aplicativo Alvo
+      description: Para qual aplicativo é esta notificação?
+      options:
+        - 📱 Mobile
+        - 💻 Desktop
+        - 🌐 Todos
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Prioridade
+      options:
+        - ℹ️ Informativo
+        - ⚠️ Urgente
+        - 🔧 Manutenção
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Título da Notificação
+      placeholder: Ex: Nova versão disponível
+    validations:
+      required: true
+
+  - type: textarea
+    id: message
+    attributes:
+      label: Mensagem
+      description: Conteúdo da notificação
+      placeholder: Descreva a notificação...
+    validations:
+      required: true
+
+  - type: input
+    id: expires
+    attributes:
+      label: Data de Expiração (opcional)
+      placeholder: 2025-08-10T14:00:00Z
