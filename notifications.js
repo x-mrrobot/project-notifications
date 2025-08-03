@@ -1,8 +1,8 @@
 [
   {
-    "version": "2.0",
-    "title": "Segunda notificação",
-    "message": "Baixe essa nova",
+    "version": "1.0",
+    "title": "Primeira notificação",
+    "message": "Baixe a nova versão 1.0",
     "type": "info"
   }
 ]
