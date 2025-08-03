@@ -30,7 +30,7 @@ body:
     id: title
     attributes:
       label: Título da Notificação
-      placeholder: Ex: Nova versão disponível
+      placeholder: Ex, Nova versão disponível
     validations:
       required: true
 
