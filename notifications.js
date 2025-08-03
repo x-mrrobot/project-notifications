@@ -1,9 +1,8 @@
 [
   {
-    "id": 1,
+    "version": "1.0",
     "title": "Nova versão 2.1.0 disponível",
-    "body": "Baixe a nova versão com correções importantes",
-    "created_at": "2025-08-03T10:30:00Z",
+    "message": "Baixe a nova versão com correções importantes",
     "type": "info"
   }
 ]
